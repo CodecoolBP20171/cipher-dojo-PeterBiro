@@ -6,6 +6,8 @@
 #define TESTABLE_DECIPHER_H
 
 #include <string>
+#include <sstream>
+#include <iostream>
 
 std::string decipher(const std::string &key, const std::string &codedMessage);
 
